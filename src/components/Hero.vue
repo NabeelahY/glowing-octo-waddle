@@ -1,13 +1,13 @@
 <template>
   <b-container>
     <b-row class="text-center hero">
-      <b-col cols="6">
-        <b-img fluid :src="image" alt="Image 1"></b-img>
-      </b-col>
       <b-col class="mid">
         <h1>Welcome to Site!</h1>
         <p>Leading market for all things luck</p>
         <b-button variant="info" href="#">More Info</b-button>
+      </b-col>
+      <b-col cols="6">
+        <b-img fluid :src="image" alt="Image 1"></b-img>
       </b-col>
     </b-row>
   </b-container>
@@ -27,6 +27,10 @@ export default {
 </script>
 
 <style scoped>
+.container {
+  border-bottom: 1px solid;
+  margin-bottom:20px;
+}
 .hero {
   padding: 30px 0;
 }

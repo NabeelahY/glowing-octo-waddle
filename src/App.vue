@@ -2,21 +2,24 @@
   <div id="app">
     <Navbar />
     <Hero />
-    <hr />
+    <About />
   </div>
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
-import Hero from './components/Hero.vue'
+import Navbar from "./components/Navbar.vue";
+import Hero from "./components/Hero.vue";
+import About from "./components/About.vue";
+
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Navbar,
-    Hero
+    Hero,
+    About
   }
-}
+};
 </script>
 
 <style>

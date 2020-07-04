@@ -17,7 +17,7 @@ export default {
   name: "Navbar",
   data() {
     return {
-      links: ["Home", "Team", "Services", "Contact"]
+      links: ["Home", "Services", "Team", "Contact"]
     };
   }
 };
