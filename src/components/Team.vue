@@ -1,5 +1,5 @@
 <template>
-  <div class="team">
+  <div class="teams" id="Team">
     <b-container>
       <h2>Meet Our Team</h2>
       <b-row>
@@ -37,7 +37,7 @@ export default {
 </script>
 
 <style scoped>
-.team {
+.teams {
   margin: 20px 0;
 }
 </style>

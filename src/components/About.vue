@@ -1,5 +1,5 @@
 <template>
-  <b-container>
+  <b-container id="About">
     <h2>About Us</h2>
     <b-row>
       <b-col v-for="(section, index) in sections" :key="index" sm="12" md="4">

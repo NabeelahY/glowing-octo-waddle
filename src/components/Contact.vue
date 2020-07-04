@@ -1,5 +1,5 @@
 <template>
-  <b-container>
+  <b-container id="Contact">
     <div class="contact">
       <h2>Contact Us</h2>
       <b-form-group>
