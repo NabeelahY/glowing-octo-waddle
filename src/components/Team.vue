@@ -3,7 +3,7 @@
     <b-container>
       <h2>Meet Our Team</h2>
       <b-row>
-        <b-col v-for="(team, index) in teams" :key="index">
+        <b-col v-for="(team, index) in teams" :key="index" sm="12" md="4">
           <b-card
             class="overflow-hidden"
             :img-src="team.img"

@@ -1,12 +1,12 @@
 <template>
   <b-container>
     <b-row class="text-center hero">
-      <b-col class="mid">
+      <b-col class="mid" sm="12" md="4">
         <h1>Welcome to Site!</h1>
         <p>Leading market for all things luck</p>
         <b-button variant="info" href="#">More Info</b-button>
       </b-col>
-      <b-col cols="6">
+      <b-col sm="12" md="6">
         <b-img fluid :src="image" alt="Image 1"></b-img>
       </b-col>
     </b-row>
@@ -29,13 +29,15 @@ export default {
 <style scoped>
 .container {
   border-bottom: 1px solid;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 .hero {
-  padding: 30px 0;
+  padding: 40px 0;
+  margin: 40px 0;
 }
 .mid {
   flex-direction: column;
   align-self: center;
 }
+
 </style>
