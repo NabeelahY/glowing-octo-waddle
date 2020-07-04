@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="lg" type="dark" variant="info" fixed="top">
-    <b-navbar-brand href="#">Vue Site</b-navbar-brand>
+    <b-navbar-brand v-scroll-to="'#home'" href="#">Vue Site</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 

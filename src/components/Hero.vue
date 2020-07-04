@@ -1,5 +1,5 @@
 <template>
-  <b-container>
+  <b-container id="home">
     <b-row class="text-center hero">
       <b-col class="mid" sm="12" md="4">
         <h1>Welcome to Site!</h1>
