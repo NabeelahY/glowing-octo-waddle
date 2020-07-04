@@ -5,6 +5,7 @@
     <About />
     <Services />
     <Team />
+    <Contact />
   </div>
 </template>
 
@@ -14,6 +15,8 @@ import Hero from "./components/Hero.vue";
 import About from "./components/About.vue";
 import Services from "./components/Services.vue";
 import Team from "./components/Team.vue";
+import Contact from "./components/Contact.vue";
+
 
 
 export default {
@@ -23,7 +26,8 @@ export default {
     Hero,
     About,
     Services,
-    Team
+    Team,
+    Contact
   }
 };
 </script>
