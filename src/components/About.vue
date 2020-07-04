@@ -2,7 +2,7 @@
   <b-container>
     <h1>About Us</h1>
     <b-row>
-      <b-col v-for="(section, index) in sections" :key="index">
+      <b-col v-for="(section, index) in sections" :key="index" sm="12" md="4">
         <b-card class="text-center" :title="section.title">
           <b-icon :icon="section.icon"></b-icon>
           <b-card-text>{{section.desc}}</b-card-text>

@@ -3,6 +3,7 @@
     <Navbar />
     <Hero />
     <About />
+    <Services />
   </div>
 </template>
 
@@ -10,14 +11,15 @@
 import Navbar from "./components/Navbar.vue";
 import Hero from "./components/Hero.vue";
 import About from "./components/About.vue";
-
+import Services from "./components/Services.vue";
 
 export default {
   name: "App",
   components: {
     Navbar,
     Hero,
-    About
+    About,
+    Services
   }
 };
 </script>
