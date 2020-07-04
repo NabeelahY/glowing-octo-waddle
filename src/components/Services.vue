@@ -9,7 +9,7 @@
       indicators
       background="#ababab"
       img-width="1024"
-      img-height="480"
+      img-height="300"
       style="text-shadow: 1px 1px 2px #333;"
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
@@ -33,7 +33,7 @@ export default {
       slide: 0,
       sliding: null,
       services: Array(3).fill({
-        img: "https://picsum.photos/1024/480",
+        img: "https://picsum.photos/1024/300",
         desc: "Nulla vitae elit libero, a pharetra augue mollis interdum."
       })
     };

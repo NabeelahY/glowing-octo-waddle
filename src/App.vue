@@ -4,6 +4,7 @@
     <Hero />
     <About />
     <Services />
+    <Team />
   </div>
 </template>
 
@@ -12,6 +13,8 @@ import Navbar from "./components/Navbar.vue";
 import Hero from "./components/Hero.vue";
 import About from "./components/About.vue";
 import Services from "./components/Services.vue";
+import Team from "./components/Team.vue";
+
 
 export default {
   name: "App",
@@ -19,7 +22,8 @@ export default {
     Navbar,
     Hero,
     About,
-    Services
+    Services,
+    Team
   }
 };
 </script>
