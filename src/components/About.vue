@@ -1,6 +1,6 @@
 <template>
   <b-container>
-    <h1>About Us</h1>
+    <h2>About Us</h2>
     <b-row>
       <b-col v-for="(section, index) in sections" :key="index" sm="12" md="4">
         <b-card class="text-center" :title="section.title">

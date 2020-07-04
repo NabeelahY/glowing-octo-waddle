@@ -1,6 +1,6 @@
 <template>
   <b-container>
-    <h1>Services</h1>
+    <h2>Services</h2>
     <b-carousel
       id="carousel-1"
       v-model="slide"
